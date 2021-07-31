@@ -1,0 +1,37 @@
+.banner {
+    background: url("gambar.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS';
+}
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #000000;
+}
+
+.lingkaran i {
+    position: relative;
+    top: 30px;
+}
+
+.crop-img {
+    object-fit: cover;
+}
+
+.client img {
+    height: auto;
+    max-height: 50px;
+}
+
+.kontak img {
+    width: 250px;
+    border: 10px solid #cccccc;
+}
